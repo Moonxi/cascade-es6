@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>省市级联</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="cascade-container">
+      <div class="cascade-province cascade-item">
+        <div class="cascade-province-selected cascade-selected">请选择省份</div>
+        <div class="cascade-province-submenu cascade-submenu">
+        </div>
+      </div>
+      <div class="cascade-city cascade-item" data-status="disabled">
+        <div class="cascade-city-selected cascade-selected">请选择城市</div>
+        <div class="cascade-city-submenu cascade-submenu"></div>
+      </div>
+      <div class="cascade-district cascade-item" data-status="disabled">
+        <div class="cascade-district-selected cascade-selected">请选择地区</div>
+        <div class="cascade-district-submenu cascade-submenu"></div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
